@@ -1,0 +1,428 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.container .logo{
+    width: 30%;
+}
+.container .logo img{
+    width: 30%;
+    margin-left: 170px;
+    margin-top: 50px;
+    animation: space 8s linear infinite;
+}
+@keyframes space {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
+.container .menu{
+    width: 65%;
+}
+.container .menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding-top: 60px;
+    margin-left: 10px;
+}
+.container .menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 30px;
+    font-family: 'Monoton', cursive;
+}
+.container .menu ul li a:hover{
+    font-weight: bold;
+}
+.container1{
+    width: 100%;
+    display: flex;
+}
+.container1 .box1{
+    width: 40%;
+}
+.container1 .box1 .item{
+    width: 65%;
+    margin-top: 200px;
+    margin-left: 160px;
+}
+.container1 .box1 .item h1{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1 .box1 .item h3{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family:  'Monoton', cursive;
+    color: red;
+}
+.container1 .box1 .item p{
+    line-height: 18px;
+}
+.container1 .box2{
+    width: 60%;
+}
+.container1 .box2 img{
+    width: 90%;
+    object-fit: cover;
+    animation: ast 3s infinite;
+}
+@keyframes ast{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.container2{
+    margin-top: 150px;
+    width: 100%;
+}
+.container2 .item{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 .item .box{
+    cursor: pointer;
+    width: 27%;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container2 .item .box .img{
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+.container2 .item .box .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container2 .item .box .text{
+    width: 100%;
+    height: 30%;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: red;
+    
+}
+.container2 .item .box:hover{
+    transform: scale(1.2);
+}
+.container2 .item .box:hover .text h1{
+    color: black;
+    transition: 0.5s;
+}
+.container3{
+    width: 100%;
+    margin-top: 120px;
+}
+.container3 .text{
+    text-align: center;
+}
+.container3 .text h2{
+    font-size: 30px;
+}
+.container3 .text h3{
+    font-size: 30px;
+}
+.container3 .text span{
+    color: red;
+}
+.container3 .item{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.container3 .item .img{
+    width: 35%;
+    height: 540px;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+.container3 .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.container3 .item .txt{
+    width: 50%;
+    text-align: center;
+}
+.container3 .item .txt h1{
+    color: red;
+    font-size: 40px;
+}
+.container3 .item .txt h2{
+    font-size: 30px;
+}
+.container3 .item .txt span{
+    color: red;
+}
+.container3 .item .txt .info{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container3 .item .txt .info .box{
+    width: 25%;
+    background-color: red;
+    height: 284px;
+    transition: 0.5s;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.container3 .item .txt .info .box .pic{
+    width: 100%;
+    height: 60%;
+}
+.container3 .item .txt .info .box .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container3 .item .txt .info .box .tt{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.container3 .item .txt .info .box .tt h1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container3 .item .txt .info .box .tt h2{
+    transition: 0.5s;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container3 .item .txt .info .box:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.container3 .item .txt .info .box:hover h2{
+    color: black;
+    transition: 0.5s;
+}
+.container4{
+    width: 100%;
+    margin-top: 100px;
+}
+.container4 .ttle{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container4 .ttle h1{
+    font-size: 25px;
+    color: black;
+}
+.container4 .ttle span{
+    color: red;
+}
+.container4 .vdo{
+    width: 75%;
+    height: 700px;
+    margin: auto;
+}
+.container4 .vdo iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container5{
+    width: 100%;
+    margin-top: 100px;
+}
+.container5 .tt{
+    text-align: center;
+    width: 100%;
+}
+.container5 .tt h1{
+    font-size: 25px;
+}
+.container5 .tt span{
+    color: red;
+}
+.container5 .all{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.container5 .all .event{
+    width: 33%;
+    height: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+.container5 .all .event:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+.container5 .all .event img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid red;
+}
+.container5 .all .event .text {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    color: white;
+    padding-left: 15px;
+    width: 98.4%;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.container5 .all .event .text span{
+    color: red;
+}
+.container6{
+    width: 100%;
+    margin-top: 100px;
+}
+.container6 .tt{
+    width: 100%;
+    text-align: center;
+}
+.container6 .tt span{
+    color: red;
+}
+.container6 .item{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.container6 .item .pic{
+    width: 40%;
+    height: 600px;
+}
+.container66  .item .pic input{
+}
+.container6 .item .pic img{
+    width: 70%;
+    height: 96%;
+    object-fit: cover;
+}
+.container6 .item .text{
+    width: 60%;
+    margin-top: 15px;
+    background-color: rgba(105, 105, 105, 0.315);
+}
+.container6 .item .text .box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container6 .item .text .box1 input{
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.container6 .item .text .box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.container6 .item .text .box2 input{
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.container6 .item .text .box3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container6 .item .text .box3 textarea{
+    width: 95%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.container6 .item .text .box4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.container6 .item .text .box4 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 22px;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+.container6 .item .text .box4 a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+}
+.last{
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.last .box{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.last .box h1{
+    color: white;
+    padding-top: 20px;
+
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.last .box h2{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.last .box2{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.last .box2 .item{
+    width: 25%;
+    cursor: pointer;
+}
+.last .box2 .item h1{
+    color: white;
+}
+.last .box2 .item h2{
+    color: whitesmoke;
+}
